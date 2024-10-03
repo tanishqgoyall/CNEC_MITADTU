@@ -1,0 +1,1155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Index - Cognisance National Esports Championship</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/CNEC logo.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: TheEvent
+  * Template URL: https://bootstrapmade.com/theevent-conference-event-bootstrap-template/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <img src="assets/img/MIT logo.jpg" alt="Cognisance National Esports Championship" style="border-radius: 50%;">
+        <!-- Uncomment the line below if you also wish to use an text logo -->
+        <!-- <h1 class="sitename">TheEvent</h1>  -->
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home<br></a></li>
+          <li><a href="#speakers">Creators</a></li>
+          <li><a href="#schedule">Schedule</a></li>
+          <li><a href="#venue">Venue</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <!-- <a class="cta-btn d-none d-sm-block" href="#buy-tickets">Register Here</a> -->
+      <a class="cta-btn d-none d-sm-block" href="#buy-tickets">Register Here</a>
+      <!--<a class="cta-btn d-none d-sm-block" href="#buy-tickets" id="openPopup">Register Here</a>-->
+
+      <!-- Modal Structure (Popup) -->
+      <div id="ticketModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <iframe src="buyticket.php" frameborder="0" width="100%" height="500px"></iframe>
+          <!-- Loads the form inside the popup -->
+        </div>
+      </div>
+
+      <script>
+        // Get the modal
+        var modal = document.getElementById("ticketModal");
+
+        // Get the button that opens the modal
+        var btn = document.getElementById("openPopup");
+
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+
+        // When the user clicks the button, open the modal
+        btn.onclick = function () {
+          modal.style.display = "block";
+        }
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function () {
+          modal.style.display = "none";
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+          if (event.target == modal) {
+            modal.style.display = "none";
+          }
+        }
+      </script>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+
+      <img src="assets/img/homepage.jpg" alt="" data-aos="fade-in" class="">
+
+      <div class="container d-flex flex-column align-items-center text-center mt-auto">
+        <div class="cnec_logo">
+          <style>
+            /* Center the logo on the screen */
+            .cnec_logo {
+              /* display: flex;
+              margin: 0 auto; */
+              /* justify-content: center;
+              align-items: center;
+              margin-bottom: 9em; */
+              /* margin: 25%; */
+            }
+            
+            .cnec_logo img {
+              /* width: 20em; */
+              width: 15em;
+              /* align-items: center; */
+              display: flex;
+              margin: auto;
+              margin-bottom: 9em;
+            }
+
+            /* Hide logo on mobile */
+            @media (max-width: 768px) {
+              .cnec_logo {
+                display: none;
+              }
+            }
+          </style>
+          <img src="./assets/img/CNEC logo.png" alt="">
+        </div>
+        <h2 data-aos="fade-up" data-aos-delay="100" class="">Welcome to<br><span>COGNISANCE </span>NATIONAL E-SPORTS
+          CHAMPIONSHIP</h2>
+        <p data-aos="fade-up" data-aos-delay="200">Where Fierce Competition Ignites Adrenaline!</p>
+        <div data-aos="fade-up" data-aos-delay="300" class="">
+          <!-- <a href="https://www.youtube.com/watch?v=box4SFtGvA0" class="glightbox pulsating-play-btn mt-3"></a> -->
+        </div>
+      </div>
+
+      <div class="about-info mt-auto position-relative">
+
+        <div class="container position-relative" data-aos="fade-up">
+          <div class="row">
+            <div class="col-lg-6">
+              <h2>About The Event</h2>
+              <p>CNEC is a national-level eSports tournament where gamers from across India can compete in their
+                favorite titles. With exciting prizes and intense competition, CNEC offers a platform for gamers to
+                showcase their skills and connect with the eSports community.</p>
+            </div>
+            <div class="col-lg-3">
+              <h3>Where</h3>
+              <p>MIT-ADT UNIVERSITY, Rajbaugh Campus, LONI KALBHOR, PUNE</p>
+            </div>
+            <div class="col-lg-3">
+              <h3>When</h3>
+              <p>Saturday to Sunday<br>5th and 6th October 2024</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- Speakers Section -->
+    <section id="speakers" class="speakers section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Event Speakers<br></h2>
+
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4 d-flex justify-content-center">
+
+          <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="member">
+              <img src="assets/img/speakers/shreeman.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4><a href="speaker-details.html">Shreeman Legend</a></h4>
+                  <span>E-sports Personality</span>
+                </div>
+                <div class="social">
+                  <a href="https://x.com/shreemanlegend" target="_blank" rel="noopener noreferrer"><i
+                      class="bi bi-twitter-x"></i></a>
+                  <a href="https://www.instagram.com/shreemanlegend" target="_blank"><i class="bi bi-instagram"></i></a>
+                  <a href="https://www.youtube.com/@shreemanlegendliveofficial" target="_blank"><i
+                      class="bi bi-youtube"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End Team Member -->
+
+          <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="member">
+              <img src="assets/img/speakers/Snax.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4><a href="speaker-details.html">Snax Gaming</a></h4>
+                  <span>E-sports Personality</span>
+                </div>
+                <div class="social">
+                  <a href="https://x.com/snaxgamingg" target="_blank"><i class="bi bi-twitter-x"></i></a>
+                  <a href="https://www.instagram.com/snaxgaming/" target="_blank"><i class="bi bi-instagram"></i></a>
+                  <a href="https://l.instagram.com/?u=https%3A%2F%2Fyoutube.com%2F%40snaxgaming%3Fsi%3Dg-xJqmVrw9y0Y0vj&e=AT0MeOcuZkPU3L5naiYGQVL0IAVEyiES_9kKN8i20YQtazWklxVn0TCsW_G4UMYXSwBcN_kzhSBmPhgTb9igel5Tm-aoqXt8"
+                    target="_blank"><i class="bi bi-youtube"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End Team Member -->
+
+        </div>
+
+
+
+
+      </div>
+
+      </div>
+
+    </section><!-- /Speakers Section -->
+
+    <!-- Schedule Section -->
+    <section id="schedule" class="schedule section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Event Schedule<br></h2>
+        <!-- <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p> -->
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <ul class="nav nav-tabs" role="tablist" data-aos="fade-up" data-aos-delay="100">
+          <li class="nav-item">
+            <a class="nav-link active" href="#day-1" role="tab" data-bs-toggle="tab">Online Qualifiers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#day-2" role="tab" data-bs-toggle="tab">LAN Day 1</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#day-3" role="tab" data-bs-toggle="tab">LAN Day 2</a>
+          </li>
+        </ul>
+
+        <div class="tab-content row justify-content-center" data-aos="fade-up" data-aos-delay="200">
+
+          <!-- <h3 class="sub-heading">Voluptatem nulla veniam soluta et corrupti consequatur neque eveniet officia. Eius necessitatibus voluptatem quis labore perspiciatis quia.</h3> -->
+
+          <!-- Schdule Day 1 -->
+          <div role="tabpanel" class="col-lg-9 tab-pane fade show active" id="day-1">
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>25th September</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <!-- <img src="assets/img/speakers/speaker-1-2.jpg" alt="Brenden Legros"> -->
+                </div>
+                <h4> Registration starts<span></span></h4>
+                <p>Registrations opens for the event. </p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>27th September</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <!-- <img src="assets/img/speakers/speaker-1-2.jpg" alt="Brenden Legros"> -->
+                </div>
+                <h4> Registration Ends<span></span></h4>
+                <p>Registrations closes for the event. </p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>28th September</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <!-- <img src="assets/img/speakers/speaker-2-2.jpg" alt="Hubert Hirthe"> -->
+                </div>
+                <h4> Start of Online Qualifiers<span></span></h4>
+                <p>Qualifier matches will start <a href="#"> <i>(Click here for format)</i></a></p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>30th September</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <!-- <img src="assets/img/speakers/speaker-3-2.jpg" alt="Cole Emmerich"> -->
+                </div>
+                <h4>End of online Qualifiers <span></span></h4>
+                <p>Qualifier matches will be ended.</p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>30th September</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <!-- <img src="assets/img/speakers/speaker-4-2.jpg" alt="Jack Christiansen"> -->
+                </div>
+                <h4>Results<span></span></h4>
+                <p>Results declaration of online qualifiers.</p>
+              </div>
+            </div>
+
+            <!-- <div class="row schedule-item">
+              <div class="col-md-2"><time>6th October</time></div>
+              <div class="col-md-10">
+                <div class="speaker"> -->
+                  <!-- <img src="assets/img/speakers/speaker-5.jpg" alt="Alejandrin Littel"> -->
+                <!-- </div>
+                <h4>LAN Day 2 <span></span></h4>
+                <p>Final day of the event</p>
+              </div>
+            </div> -->
+
+            <!-- <div class="row schedule-item">
+              <div class="col-md-2"><time>04:00 PM</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="assets/img/speakers/speaker-6.jpg" alt="Willow Trantow">
+                </div>
+                <h4>Quo qui praesentium nesciunt <span>Willow Trantow</span></h4>
+                <p>Voluptatem et alias dolorum est aut sit enim neque veritatis.</p>
+              </div>
+            </div> -->
+
+          </div><!-- End Schdule Day 1 -->
+
+          <!-- Schdule Day 2 -->
+          <div role="tabpanel" class="col-lg-9  tab-pane fade" id="day-2">
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>09:30 AM</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <!-- <img src="assets/img/speakers/speaker-1-2.jpg" alt="Brenden Legros"> -->
+                </div>
+                <h4>Registration</h4>
+                <p>Facere provident incidunt quos voluptas.</p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>11:00 AM</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="assets/img/speakers/speaker-2-2.jpg" alt="Hubert Hirthe">
+                </div>
+                <h4>Et voluptatem iusto dicta nobis. <span>Hubert Hirthe</span></h4>
+                <p>Maiores dignissimos neque qui cum accusantium ut sit sint inventore.</p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>12:00 AM</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="assets/img/speakers/speaker-3-2.jpg" alt="Cole Emmerich">
+                </div>
+                <h4>Explicabo et rerum quis et ut ea. <span>Cole Emmerich</span></h4>
+                <p>Veniam accusantium laborum nihil eos eaque accusantium aspernatur.</p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>02:00 PM</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="assets/img/speakers/speaker-4-2.jpg" alt="Jack Christiansen">
+                </div>
+                <h4>Qui non qui vel amet culpa sequi. <span>Jack Christiansen</span></h4>
+                <p>Nam ex distinctio voluptatem doloremque suscipit iusto.</p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>03:00 PM</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="assets/img/speakers/speaker-5.jpg" alt="Alejandrin Littel">
+                </div>
+                <h4>Quos ratione neque expedita asperiores. <span>Alejandrin Littel</span></h4>
+                <p>Eligendi quo eveniet est nobis et ad temporibus odio quo.</p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>04:00 PM</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="assets/img/speakers/speaker-6.jpg" alt="Willow Trantow">
+                </div>
+                <h4>Quo qui praesentium nesciunt <span>Willow Trantow</span></h4>
+                <p>Voluptatem et alias dolorum est aut sit enim neque veritatis.</p>
+              </div>
+            </div>
+
+          </div><!-- End Schdule Day 2 -->
+
+          <!-- Schdule Day 3 -->
+          <div role="tabpanel" class="col-lg-9  tab-pane fade" id="day-3">
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>10:00 AM</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="assets/img/speakers/speaker-2-2.jpg" alt="Hubert Hirthe">
+                </div>
+                <h4>Et voluptatem iusto dicta nobis. <span>Hubert Hirthe</span></h4>
+                <p>Maiores dignissimos neque qui cum accusantium ut sit sint inventore.</p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>11:00 AM</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="assets/img/speakers/speaker-3-2.jpg" alt="Cole Emmerich">
+                </div>
+                <h4>Explicabo et rerum quis et ut ea. <span>Cole Emmerich</span></h4>
+                <p>Veniam accusantium laborum nihil eos eaque accusantium aspernatur.</p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>12:00 AM</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="assets/img/speakers/speaker-1-2.jpg" alt="Brenden Legros">
+                </div>
+                <h4>Libero corrupti explicabo itaque. <span>Brenden Legros</span></h4>
+                <p>Facere provident incidunt quos voluptas.</p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>02:00 PM</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="assets/img/speakers/speaker-4-2.jpg" alt="Jack Christiansen">
+                </div>
+                <h4>Qui non qui vel amet culpa sequi. <span>Jack Christiansen</span></h4>
+                <p>Nam ex distinctio voluptatem doloremque suscipit iusto.</p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>03:00 PM</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="assets/img/speakers/speaker-5.jpg" alt="Alejandrin Littel">
+                </div>
+                <h4>Quos ratione neque expedita asperiores. <span>Alejandrin Littel</span></h4>
+                <p>Eligendi quo eveniet est nobis et ad temporibus odio quo.</p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>04:00 PM</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="assets/img/speakers/speaker-6.jpg" alt="Willow Trantow">
+                </div>
+                <h4>Quo qui praesentium nesciunt <span>Willow Trantow</span></h4>
+                <p>Voluptatem et alias dolorum est aut sit enim neque veritatis.</p>
+              </div>
+            </div>
+
+          </div>
+          <!-- End Schdule Day 3 -->
+
+        </div>
+
+      </div>
+    </section><!-- /Schedule Section -->
+
+    <!-- Venue Section -->
+    <section id="venue" class="venue section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Event Venue<br></h2>
+        <!-- <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p> -->
+      </div><!-- End Section Title -->
+
+      <div class="container-fluid" data-aos="fade-up">
+
+        <div class="row g-0">
+          <div class="col-lg-6 venue-map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7567.572030545141!2d74.01940909041345!3d18.493349480379358!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2e8015a3da997%3A0x6ea28cf1924e2860!2sMIT%20ADT%20UNIVERSITY%2C%20Loni%20Kalbhor%2C%20Maharashtra%20412201!5e0!3m2!1sen!2sin!4v1727004344125!5m2!1sen!2sin"
+              frameborder="0" style="border:0" allowfullscreen=""></iframe>
+          </div>
+
+          <div class="col-lg-6 venue-info">
+            <div class="row justify-content-center">
+              <div class="col-11 col-lg-8 position-relative">
+                <h3>MIT ADT UNIVERSITY</h3>
+                <p>Loni Kalbhor, Pune, Maharashtra, 412201</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="container-fluid venue-gallery-container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row g-0">
+
+          <div class="col-lg-3 col-md-4">
+            <div class="venue-gallery">
+              <a href="assets/img/venue-gallery/5.png" class="glightbox" data-gall="venue-gallery">
+                <img src="assets/img/venue-gallery/5.png" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="venue-gallery">
+              <a href="assets/img/venue-gallery/2.png" class="glightbox" data-gall="venue-gallery">
+                <img src="assets/img/venue-gallery/2.png" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="venue-gallery">
+              <a href="assets/img/venue-gallery/3.png" class="glightbox" data-gall="venue-gallery">
+                <img src="assets/img/venue-gallery/3.png" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="venue-gallery">
+              <a href="assets/img/venue-gallery/4.png" class="glightbox" data-gall="venue-gallery">
+                <img src="assets/img/venue-gallery/4.png" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <!-- <div class="col-lg-3 col-md-4">
+            <div class="venue-gallery">
+              <a href="assets/img/venue-gallery/venue 5.jpg" class="glightbox" data-gall="venue-gallery">
+                <img src="assets/img/venue-gallery/venue 5.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="venue-gallery">
+              <a href="assets/img/venue-gallery/venue-gallery-6.jpg" class="glightbox" data-gall="venue-gallery">
+                <img src="assets/img/venue-gallery/venue-gallery-6.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="venue-gallery">
+              <a href="assets/img/venue-gallery/venue-gallery-7.jpg" class="glightbox" data-gall="venue-gallery">
+                <img src="assets/img/venue-gallery/venue-gallery-7.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="venue-gallery">
+              <a href="assets/img/venue-gallery/venue-gallery-8.jpg" class="glightbox" data-gall="venue-gallery">
+                <img src="assets/img/venue-gallery/venue-gallery-8.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div> -->
+
+        </div>
+      </div>
+
+    </section><!-- /Venue Section -->
+
+    <!-- Hotels Section -->
+    <!-- <section id="hotels" class="hotels section"> -->
+
+    <!-- Section Title -->
+    <!-- <div class="container section-title" data-aos="fade-up">
+        <h2>Hotels</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div> -->
+    <!-- End Section Title -->
+
+    <!-- <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="card h-100">
+              <div class="card-img">
+                <img src="assets/img/hotels-1.jpg" alt="" class="img-fluid">
+              </div>
+              <h3><a href="#" class="stretched-link">Non quibusdam blanditiis</a></h3>
+              <div class="stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+              <p>0.4 Mile from the Venue</p>
+            </div>
+          </div> -->
+    <!-- End Card Item -->
+
+    <!-- <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="card h-100">
+              <div class="card-img">
+                <img src="assets/img/hotels-2.jpg" alt="" class="img-fluid">
+              </div>
+              <h3><a href="#" class="stretched-link">Aspernatur assumenda</a></h3>
+              <div class="stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+              <p>0.5 Mile from the Venue</p>
+            </div>
+          </div> -->
+    <!-- End Card Item -->
+
+    <!-- <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="card h-100">
+              <div class="card-img">
+                <img src="assets/img/hotels-3.jpg" alt="" class="img-fluid">
+              </div>
+              <h3><a href="#" class="stretched-link">Dolores ut ut voluptatibu</a></h3>
+              <div class="stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+              <p>0.6 Mile from the Venue</p>
+            </div>
+          </div> -->
+    <!-- End Card Item -->
+    <!-- 
+        </div>
+
+      </div>
+
+    </section> -->
+    <!-- /Hotels Section -->
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Gallery</h2>
+        <!-- <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p> -->
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "centeredSlides": true,
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 1,
+                  "spaceBetween": 0
+                },
+                "768": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 20
+                },
+                "1200": {
+                  "slidesPerView": 5,
+                  "spaceBetween": 20
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
+                href="assets/img/event-gallery/event 1.jpg"><img src="assets/img/event-gallery/event 1.jpg"
+                  class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
+                href="assets/img/event-gallery/event 2.jpg"><img src="assets/img/event-gallery/event 2.jpg"
+                  class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
+                href="assets/img/event-gallery/event 3.jpg"><img src="assets/img/event-gallery/event 3.jpg"
+                  class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
+                href="assets/img/event-gallery/event 4.jpeg"><img src="assets/img/event-gallery/event 4.jpeg"
+                  class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
+                href="assets/img/event-gallery/event img 5.jpg"><img src="assets/img/event-gallery/event img 5.jpg"
+                  class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
+                href="assets/img/event-gallery/event 6.jpeg"><img src="assets/img/event-gallery/event 6.jpeg"
+                  class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
+                href="assets/img/event-gallery/event 7.jpg"><img src="assets/img/event-gallery/event 7.jpg"
+                  class="img-fluid" alt=""></a></div>
+            <!-- <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/event-gallery/event-gallery-8.jpg"><img src="assets/img/event-gallery/event-gallery-8.jpg" class="img-fluid" alt=""></a></div> -->
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+
+    </section><!-- /Gallery Section -->
+
+    <!-- Sponsors Section -->
+    <section id="sponsors" class="sponsors section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Our Sponsors</h2>
+        <!-- <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p> -->
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row g-0 clients-wrap">
+
+          <div class="col-xl-3 col-md-4 client-logo">
+            <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
+          </div><!-- End Client Item -->
+
+          <div class="col-xl-3 col-md-4 client-logo">
+            <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
+          </div><!-- End Client Item -->
+
+          <div class="col-xl-3 col-md-4 client-logo">
+            <img src="assets/img/clients/client-3.png" class="img-fluid" alt="">
+          </div><!-- End Client Item -->
+
+          <div class="col-xl-3 col-md-4 client-logo">
+            <img src="assets/img/clients/client-4.png" class="img-fluid" alt="">
+          </div><!-- End Client Item -->
+
+          <div class="col-xl-3 col-md-4 client-logo">
+            <img src="assets/img/clients/client-5.png" class="img-fluid" alt="">
+          </div><!-- End Client Item -->
+
+          <div class="col-xl-3 col-md-4 client-logo">
+            <img src="assets/img/clients/client-6.png" class="img-fluid" alt="">
+          </div><!-- End Client Item -->
+
+          <div class="col-xl-3 col-md-4 client-logo">
+            <img src="assets/img/clients/client-7.png" class="img-fluid" alt="">
+          </div><!-- End Client Item -->
+
+          <div class="col-xl-3 col-md-4 client-logo">
+            <img src="assets/img/clients/client-8.png" class="img-fluid" alt="">
+          </div><!-- End Client Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Sponsors Section -->
+
+    <!-- Faq Section -->
+    <section id="faq" class="faq section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Frequently Asked Questions</h2>
+        <!-- <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p> -->
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row justify-content-center">
+
+          <div class="col-lg-10" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="faq-container">
+
+              <div class="faq-item faq-active">
+                <h3>What is the Cognisance National Esports Championship?</h3>
+                <div class="faq-content">
+                  <p>The Cognisance National Esports Championship is a competitive gaming event hosted by MIT-ADT
+                    University, bringing together gamers from across the nation to compete in various popular esports
+                    titles.
+                  </p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3>Who can participate in the championship?</h3>
+                <div class="faq-content">
+                  <p>The championship is open to all students and esports enthusiasts above age 18, regardless of their
+                    skill level. Participants must register in advance to secure their spot in the competition.
+                  </p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <!-- <div class="faq-item">
+                <h3>Advantages of premium?</h3>
+                <div class="faq-content">
+                  <p>You will have a chance to meet and interact your favorite creators and .</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div> -->
+              <!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3>How do I register for the event?</h3>
+                <div class="faq-content">
+                  <p>Registration can be completed through our official website. Participants must fill out the
+                    <b>" Player "</b>registration form and there is no entry fee. Make sure to check the registration
+                    deadline to ensure
+                    your participation.
+                  </p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3>What games will be featured in the championship?</h3>
+                <div class="faq-content">
+                  <p>Battle Ground Mobile India (BGMI)</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3>Will there be prizes for the winners?</h3>
+                <div class="faq-content">
+                  <p>Yes, winners will receive exciting prizes, including cash rewards, gaming gear, and certificates.
+                    Details regarding the prize distribution will be announced during the event.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+            </div>
+
+          </div><!-- End Faq Column-->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Faq Section -->
+
+    <!-- Buy Tickets Section -->
+    <section id="buy-tickets" class="buy-tickets section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Buy Tickets<br></h2>
+        <!-- <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p> -->
+        <marquee behavior="" direction=""
+          style="background-color: rgba(243, 243, 8, 0.349); color: rgb(9, 9, 9); padding: 5px; font-weight: 600;">*
+          Player - Participants Registration for tournament | Spectator - Audiance to WATCH live event | VIP - Premium
+          seats to WATCH live event *</marquee>
+      </div><!-- End Section Title -->
+
+
+      <div class="container">
+
+        <div class="row gy-4 pricing-item featured mt-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-3 d-flex align-items-center justify-content-center">
+            <h3>Player</h3>
+          </div>
+          <div class="col-lg-3 d-flex align-items-center justify-content-center">
+            <h5><sup></sup><b>Unlimited - Free</b><span></span></h5>
+          </div>
+          <div class="col-lg-3 d-flex align-items-center justify-content-center">
+            <!-- <ul>
+                  <li><i class="bi bi-check"></i> <span>Quam adipiscing vitae proin</span></li>
+                  <li><i class="bi bi-check"></i> <span>Nulla at volutpat diam uteera</span></li>
+                  <li class="na"><i class="bi bi-x"></i> <span>Pharetra massa massa ultricies</span></li>
+                </ul> -->
+          </div>
+          <div class="col-lg-3 d-flex align-items-center justify-content-center">
+            <div class="text-center"><a href="https://forms.gle/K9cdz125rZ9SZVBFA" class="buy-btn"
+                target="_blank">Register Now</a></div>
+          </div>
+        </div><!-- End Pricing Item -->
+
+        <div class="row gy-4 pricing-item mt-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-lg-3 d-flex align-items-center justify-content-center">
+            <h3>Spectator<br></h3>
+          </div>
+          <div class="col-lg-3 d-flex align-items-center justify-content-center">
+            <h5><sup></sup><b>Unlimited - Free</b><span></span></h5>
+          </div>
+          <div class="col-lg-3 d-flex align-items-center justify-content-center">
+            <!-- <ul>
+                  <li><i class="bi bi-check"></i> <span>Quam adipiscing vitae proin</span></li>
+                  <li><i class="bi bi-check"></i> <strong>Nec feugiat nisl pretium</strong></li>
+                  <li><i class="bi bi-check"></i> <span>Nulla at volutpat diam uteera</span></li>
+                </ul> -->
+          </div>
+          <div class="col-lg-3 d-flex align-items-center justify-content-center">
+            <div class="text-center"><a href="#buy-tickets" class="buy-btn">Free</a></div>
+          </div>
+        </div><!-- End Pricing Item -->
+
+        <div class="row gy-4 pricing-item mt-4" data-aos="fade-up" data-aos-delay="300">
+          <div class="col-lg-3 d-flex align-items-center justify-content-center">
+            <h3>VIP<br></h3>
+          </div>
+          <div class="col-lg-3 d-flex align-items-center justify-content-center">
+            <h4><sup>₹</sup>500<span> / seat</span></h4>
+          </div>
+          <div class="col-lg-3 d-flex align-items-center justify-content-center">
+            <!--<ul>-->
+            <!--  <li><i class="bi bi-check"></i> <span>Quam adipiscing vitae proin</span></li>-->
+            <!--  <li><i class="bi bi-check"></i> <span>Nec feugiat nisl pretium</span></li>-->
+            <!--  <li><i class="bi bi-check"></i> <span>Nulla at volutpat diam uteera</span></li>-->
+            <!--</ul>-->
+          </div>
+          <div class="col-lg-3 d-flex align-items-center justify-content-center">
+            <div class="text-center"><a href="#" class="buy-btn" target="_blank">Buy
+                Now</a></div>
+          </div>
+        </div>
+        <!-- End Pricing Item -->
+
+      </div>
+
+    </section><!-- /Buy Tickets Section -->
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <!-- <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p> -->
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6">
+            <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up"
+              data-aos-delay="200">
+              <i class="bi bi-geo-alt"></i>
+              <h3>Address</h3>
+              <p>MIT ADT University, Loni Kalbhor, Pune 412201</p>
+            </div>
+          </div><!-- End Info Item -->
+
+          <!-- <div class="col-lg-3 col-md-6">
+            <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="300">
+              <i class="bi bi-telephone"></i>
+              <h3>Call Us</h3>
+              <p>+1 5589 55488 55</p>
+            </div>
+          </div> -->
+          <!-- End Info Item -->
+
+          <div class="col-lg-6 col-md-6">
+            <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up"
+              data-aos-delay="400">
+              <i class="bi bi-envelope"></i>
+              <h3>Email Us</h3>
+              <p><a href="mailto:cognisance@mituniversity.edu.in">cognisance@mituniversity.edu.in</a></p>
+            </div>
+          </div><!-- End Info Item -->
+
+        </div>
+
+        <div class="row gy-4 mt-1">
+          <div class="col-lg-12" data-aos="fade-up" data-aos-delay="300">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7567.572030545141!2d74.01940909041345!3d18.493349480379358!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2e8015a3da997%3A0x6ea28cf1924e2860!2sMIT%20ADT%20UNIVERSITY%2C%20Loni%20Kalbhor%2C%20Maharashtra%20412201!5e0!3m2!1sen!2sin!4v1727004344125!5m2!1sen!2sin"
+              frameborder="0" style="border:0; width: 100%; height: 400px;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <!-- End Google Maps -->
+          <!-- 
+          <div class="col-lg-6">
+            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="400">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                </div>
+
+                <div class="col-md-6 ">
+                  <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                  <button type="submit">Send Message</button>
+                </div>
+
+              </div>
+            </form>
+          </div> -->
+          <!-- End Contact Form -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer dark-background">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-4 col-md-6 footer-about">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <span class="sitename">CNEC</span>
+            </a>
+            <div class="footer-contact pt-3">
+              <p>MIT ADT UNIVERSITY</p>
+              <p>LONI KALBHOR, PUNE, MAHARASHTRA 412201</p>
+              <!-- <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p> -->
+              <p><strong>Email:</strong> <a href="mailto:cognisance@mituniversity.edu.in">cognisance@mituniversity.edu.in</a></p>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><a href="#hero">Home</a></li>
+              <li><a href="#speakers">Creators</a></li>
+              <li><a href="#schedule">Event Schedule</a></li>
+              <li><a href="#venue">Venue Details</a></li>
+              <li><a href="#gallery">Gallery</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Registration</h4>
+            <ul>
+              <li><a href="https://forms.gle/K9cdz125rZ9SZVBFA" class="buy-btn" target="_blank">Participant
+                  Registration</a></li>
+              <li><a href="#buy-tickets">Spectator Booking</a></li>
+              <!-- <li><a href="#">Product Management</a></li>
+              <li><a href="#">Marketing</a></li>
+              <li><a href="#">Graphic Design</a></li> -->
+            </ul>
+          </div>
+
+          <!-- <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Hic solutasetp</h4>
+            <ul>
+              <li><a href="#">Molestiae accusamus iure</a></li>
+              <li><a href="#">Excepturi dignissimos</a></li>
+              <li><a href="#">Suscipit distinctio</a></li>
+              <li><a href="#">Dilecta</a></li>
+              <li><a href="#">Sit quas consectetur</a></li>
+            </ul>
+          </div> -->
+
+          <!-- <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Nobis illum</h4>
+            <ul>
+              <li><a href="#">Ipsam</a></li>
+              <li><a href="#">Laudantium dolorum</a></li>
+              <li><a href="#">Dinera</a></li>
+              <li><a href="#">Trodelas</a></li>
+              <li><a href="#">Flexo</a></li>
+            </ul>
+          </div> -->
+
+        </div>
+      </div>
+    </div>
+
+    <div class="copyright text-center">
+      <div
+        class="container d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center">
+
+        <div class="d-flex flex-column align-items-center align-items-lg-start">
+          <div>
+            © Copyright <strong><span>MIT-ADT UNIVERSITY</span></strong>. All Rights Reserved
+          </div>
+          <div class="credits">
+            <!-- All the links in the footer should remain intact. -->
+            <!-- You can delete the links only if you purchased the pro version. -->
+            <!-- Licensing information: https://bootstrapmade.com/license/ -->
+            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/herobiz-bootstrap-business-template/ -->
+            Designed by <a href="https://mituniversity.ac.in/">Website Department MIT ADTU</a>
+          </div>
+        </div>
+
+        <div class="social-links order-first order-lg-last mb-3 mb-lg-0">
+          <h6>Cognisance Socials</h6>
+          <a href="https://chat.whatsapp.com/C4BLsoVJF8qJxSQNXKloj2"><i class="bi bi-whatsapp"></i></a>
+          <a href="https://discord.com/invite/Rd7Xcrf5QA"><i class="bi bi-discord"></i></a>
+          <a href="https://www.instagram.com/cognisance.mit/"><i class="bi bi-instagram"></i></a>
+          <a href="https://www.linkedin.com/company/cognisance-mit-adtu/"><i class="bi bi-linkedin"></i></a>
+        </div>
+
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
